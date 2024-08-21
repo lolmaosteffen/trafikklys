@@ -5,10 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style src="styling.css"></style>
+    <link rel="stylesheet" href="styling.css">
 </head>
 
 <body>
+
+    <div id="container">
+        <div id="buttons">
+            <button onclick="avKnapp()">off</button>
+            <button onclick="makeItRed()">rød</button>
+            <button onclick="makeItRedAndYellow()">rød og gul</button>
+            <button onclick="makeItGreen()">grønn</button>
+        </div>
+        <divid id="alleLys">
+            <div class="lys" id="rødt"></div>
+            <div class="lys" id="gult"></div>
+            <div class="lys" id="grønnt"></div>
+    </div>
+    </div>
 
     <script src="code.js"></script>
 </body>
